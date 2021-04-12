@@ -15,6 +15,7 @@
   height: 100%;
   display: flex;
   justify-content: space-around;
+  
 }
 
 ul{
@@ -36,9 +37,9 @@ li{
   font-weight: bold;
   float: left;
   position: relative;
-  padding: 10px 20px;
   overflow: hidden;  
   cursor:pointer;
+  list-style: none;
 }
 
 li::after {
@@ -53,17 +54,9 @@ li::after {
 }
 
 li:hover::after {
-  width: 90%;
+  width: 100%;
   color: #FE536E;
 }
-
-
-
-li::selection{
-  list-style:square;
-}
-
-
 
 .logo{
   width: 50px;
@@ -72,6 +65,5 @@ li::selection{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  line-break: initial;
   margin-bottom: 4px;
 }
