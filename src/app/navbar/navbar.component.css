@@ -1,69 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&display=swap");
 
-.wrapper{
-  margin:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;  
+  background-color: #333;
 }
 
-.links{
-  flex:9;
+li,
+a,
+button {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.wrapper {
   height: 100%;
   display: flex;
-  justify-content: space-around;
-  
-}
-
-ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  padding: 15px 6%;
 }
 
-.rot{
-  transform: rotate(-90deg);
-  margin-bottom: 75px;
-  margin-left: -35px;
-
-}
-
-li{  
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  float: left;
-  position: relative;
-  overflow: hidden;  
-  cursor:pointer;
+.nav_links {
   list-style: none;
 }
 
-li::after {
-  background-color: #FE536E; 
-  content: "";
-  width: 0;
-  height: 3px;
-  left: 0;
-  bottom: 0;
-  transition: width 0.35s ease 0s;
-  position: absolute;
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+  cursor: pointer;
 }
 
-li:hover::after {
-  width: 100%;
-  color: #FE536E;
+.nav_links li a {
+  transition: all 0.3s ease-in;
 }
 
-.logo{
-  width: 50px;
-  height: 50px;
-  background-image: url('/assets/AJ.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom: 4px;
+.nav_links li a:hover {
+  color: aqua;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #ecf0f1;
+  /* cursor: pointer; */
+  margin-right: auto;
 }

@@ -1,6 +1,7 @@
 .wrapper{
   margin: 0;
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -25,4 +26,4 @@
   flex:5;
   padding:10px;
 }
-
+ 
