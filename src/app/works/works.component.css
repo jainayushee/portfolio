@@ -35,21 +35,22 @@
   /* margin-bottom: 10px; */
   transition: 0.3s;
   box-shadow: 4px 4px 4px rgb(221, 221, 221);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .card-header {
   text-align: center;
-  padding: 30px 10px;
+  padding: 20px 8px;
   /* background: linear-gradient(to right, #ff416c, #ff4b2b); */
   background-color: #333;
   color: #fff;
+  
 }
 
 .card-body {
   padding: 30px 20px;
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .card-body .btn {
