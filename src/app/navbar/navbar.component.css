@@ -35,12 +35,16 @@ button {
   cursor: pointer;
 }
 
-.nav_links li a {
+.nav_links li {
   transition: all 0.3s ease-in;
 }
 
-.nav_links li a:hover {
+.nav_links li:hover {
   color: aqua;
+}
+
+.nav_links li::selection{
+  color: blue;
 }
 
 button {
